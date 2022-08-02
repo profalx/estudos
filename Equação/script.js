@@ -13,8 +13,8 @@ function calcular() {
         raizes.innerHTML = `A função não possui raízes reais pois o valor de delta é igual a ${delta}.`
     } else {
         d = Math.sqrt(delta)
-        x1 = (-b + d)/2*a
-        x2 = (-b - d)/2*a
+        x1 = ((-b + d)/2*a).toFixed(0)
+        x2 = ((-b - d)/2*a).toFixed(0)
         if(x1 = x2) {
             raizes.innerHTML = `A função possui duas raízes iguais a ${x1}.`
         } else {
